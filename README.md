@@ -7,6 +7,8 @@ node --debug bin/www
 或者 DEBUG=signupexpress:* —debug-brk ./bin/www 
 mongoldb:
 sudo su用最高权限打开
+dasfasd
+asdf
 
 ##CSS
 

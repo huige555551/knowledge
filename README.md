@@ -6,7 +6,7 @@
 > node --debug bin/www
 > 或者 DEBUG=signupexpress:* —debug-brk ./bin/www 
 > mongoldb:
-> sudo su用最高权限打开
+sudo su用最高权限打开
 
 ##CSS
 
@@ -15,11 +15,11 @@
 3. overflow: hidden;
 	vertical-align: top; 
 4. display:block
-    > - block元素会独占一行，多个block元素会各自新起一行。默认情况下，block元素宽度自动填满其父元素宽度。
-    > - block元素可以设置width,height属性。块级元素即使设置了宽度,仍然是独占一行。
-    > - block元素可以设置margin和padding属性。
+    - block元素会独占一行，多个block元素会各自新起一行。默认情况下，block元素宽度自动填满其父元素宽度。
+    - block元素可以设置width,height属性。块级元素即使设置了宽度,仍然是独占一行。
+    - block元素可以设置margin和padding属性。
 
-5.inline与inlineblock的区别
+5. inline与inlineblock的区别
 
 - display:inline
 

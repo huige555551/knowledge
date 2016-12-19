@@ -3,10 +3,10 @@
 ##debug express:
 
 > node-inspector
-node --debug bin/www
-或者 DEBUG=signupexpress:* —debug-brk ./bin/www 
-mongoldb:
-sudo su用最高权限打开
+> node --debug bin/www
+> 或者 DEBUG=signupexpress:* —debug-brk ./bin/www 
+> mongoldb:
+> sudo su用最高权限打开
 
 ##CSS
 
@@ -15,17 +15,17 @@ sudo su用最高权限打开
 3. overflow: hidden;
 	vertical-align: top; 
 4. display:block
-    - block元素会独占一行，多个block元素会各自新起一行。默认情况下，block元素宽度自动填满其父元素宽度。
-    - block元素可以设置width,height属性。块级元素即使设置了宽度,仍然是独占一行。
-    - block元素可以设置margin和padding属性。
+    > - block元素会独占一行，多个block元素会各自新起一行。默认情况下，block元素宽度自动填满其父元素宽度。
+    > - block元素可以设置width,height属性。块级元素即使设置了宽度,仍然是独占一行。
+    > - block元素可以设置margin和padding属性。
 
 5.inline与inlineblock的区别
 
 - display:inline
 
     > - inline元素不会独占一行，多个相邻的行内元素会排列在同一行里，直到一行排列不下，才会新换一行，其宽度随元素的内容而变化。
-    - inline元素设置width,height属性无效。
-    - inline元素的margin和padding属性，水平方向的padding-left, padding-right, margin-left, margin-right都产生边距效果；但竖直方向的padding-top, padding-bottom, margin-top, margin-bottom不会产生边距效果。
+    > - inline元素设置width,height属性无效。
+    > - inline元素的margin和padding属性，水平方向的padding-left, padding-right, margin-left, margin-right都产生边距效果；但竖直方向的padding-top, padding-bottom, margin-top, margin-bottom不会产生边距效果。
 
 - display:inline-block
 

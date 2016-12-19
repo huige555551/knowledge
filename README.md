@@ -1,7 +1,7 @@
 # 知识摘要
 
 ##debug express:
->node-inspector
+node-inspector
 node --debug bin/www
 或者 DEBUG=signupexpress:* —debug-brk ./bin/www 
 mongoldb:

@@ -2,13 +2,17 @@
 
 ##debug express:
 
-node-inspector
+>node-inspector
+
 node --debug bin/www
+
 或者 DEBUG=signupexpress:* —debug-brk ./bin/www 
+
 mongoldb:
+
 sudo su用最高权限打开
-dasfasd
-asdf
+
+
 
 ##CSS
 
@@ -35,4 +39,5 @@ asdf
 
 ##adsfasd
 
-> Before you start a new exercise, be sure to run `git pull bloc master` from your virtual machine's command line. This will pull the master branch of this repo into your local repo and merge updates with your changes. Updates to this repo will be pushed occasionally (when we add or fix new exercises, tests, etc.), and `git pull bloc master` will ensure that you are working with the latest exercises. You may also "watch" this repo to get email notifications of updates and issues.
+> Before you start a new exer
+cise, be sure to run `git pull bloc master` from your virtual machine's command line. This will pull the master branch of this repo into your local repo and merge updates with your changes. Updates to this repo will be pushed occasionally (when we add or fix new exercises, tests, etc.), and `git pull bloc master` will ensure that you are working with the latest exercises. You may also "watch" this repo to get email notifications of updates and issues.

@@ -2,14 +2,10 @@
 
 ##debug express:
 
->node-inspector
-
-node --debug bin/www
-
-或者 DEBUG=signupexpress:* —debug-brk ./bin/www 
-
-mongoldb:
-
+>node-inspector  
+node --debug bin/www   
+或者 DEBUG=signupexpress:* —debug-brk ./bin/www   
+mongoldb:  
 sudo su用最高权限打开
 
 
@@ -36,8 +32,3 @@ sudo su用最高权限打开
 - display:inline-block
 
     > - 简单来说就是将对象呈现为inline对象，但是对象的内容作为block对象呈现。之后的内联对象会被排列在同一行内。比如我们可以给一个link（a元素）inline-block属性值，使其既具有block的宽度高度特性又具有inline的同行特性。
-
-##adsfasd
-
-> Before you start a new exer
-cise, be sure to run `git pull bloc master` from your virtual machine's command line. This will pull the master branch of this repo into your local repo and merge updates with your changes. Updates to this repo will be pushed occasionally (when we add or fix new exercises, tests, etc.), and `git pull bloc master` will ensure that you are working with the latest exercises. You may also "watch" this repo to get email notifications of updates and issues.

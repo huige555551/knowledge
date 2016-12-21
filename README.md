@@ -32,3 +32,11 @@ sudo su用最高权限打开
 - display:inline-block
 
     > - 简单来说就是将对象呈现为inline对象，但是对象的内容作为block对象呈现。之后的内联对象会被排列在同一行内。比如我们可以给一个link（a元素）inline-block属性值，使其既具有block的宽度高度特性又具有inline的同行特性。
+
+##git的使用
+git clone 下来，然后更改文件  
+git init   
+git add .  
+git commit . -m "first commit"  
+git remote add origin https://github.com/huige555551/crawler.git(或者用ssh：git@github.com:huige555551/knowledge.git)    如果出现fatal: remote origin already exists. 就先 git remote remove origin
+git push -f origin master   (-f强推)
